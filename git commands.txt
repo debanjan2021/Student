@@ -1,0 +1,66 @@
+--Cloning Repository
+
+git clone [url]
+
+
+--local file status, check branch, committed files
+git status
+
+--difference between working and staging area
+git diff
+
+--add file to staging area [staging]
+git add [file name]
+
+--remove file from staging area [unstaging]
+git reset HEAD [file name]
+git reset HEAD -- .
+git restore --staged [file name]
+
+--commit
+git commit
+git commit -m [message]
+
+--commit all untracked file
+git commit -a -m [message]
+
+--push
+git push
+git push -u origin main
+
+--commit log branch wise
+git log
+
+
+--add origin url
+git remote add origin [url]
+
+--change origin url
+git remote set-url origin [url]
+
+--get all local branches
+git branch
+
+--get all branches local and remote
+git branch -r
+
+--creating new branch
+git checkout -b [branch name]
+
+--switch branch
+git checkout [branch name]
+
+--branch renaming
+git branch -m oldname newname
+
+--fetch all branches
+git fetch
+
+
+--fetch all changes from remote [fetch + merge]
+git pull
+
+ git config --global user.email "debanjang2000@gmail.com"
+  
+
+
